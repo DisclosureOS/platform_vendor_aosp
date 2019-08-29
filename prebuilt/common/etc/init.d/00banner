@@ -1,0 +1,7 @@
+#!/system/bin/sh
+#
+# Print startup info
+#
+L="log -p i -t disclosure"
+
+$L "Welcome to Android `getprop ro.build.version.release` / DisclosureOS `getprop ro.disclosure.version`";
