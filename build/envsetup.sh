@@ -10,11 +10,6 @@ function repopick() {
     $T/vendor/dos/build/tools/repopick.py $@
 }
 
-function gerrit()
-{
-
-}
-
 function fixup_common_out_dir() {
     common_out_dir=$(get_build_var OUT_DIR)/target/common
     target_device=$(get_build_var TARGET_DEVICE)
