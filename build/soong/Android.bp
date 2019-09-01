@@ -1,6 +1,6 @@
 bootstrap_go_package {
     name: "soong-aosp-android",
-    pkgPath: "aosp/soong/android_aosp",
+    pkgPath: "dos/soong/android_aosp",
     srcs: [
         "android/variable.go",
     ],
@@ -8,7 +8,7 @@ bootstrap_go_package {
 
 bootstrap_go_package {
     name: "soong-aosp-generator",
-    pkgPath: "aosp/soong/generator",
+    pkgPath: "dos/soong/generator",
     deps: [
         "blueprint",
         "blueprint-pathtools",
